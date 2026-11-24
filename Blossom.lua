@@ -2479,7 +2479,7 @@ function Window:Toggle()
 end
 
 local ConfigMemory = {}
-local function configPath(name) return "Blossom/" .. name .. ".json" end
+local function configPath(name) return "Aftermath.lol/Configs" .. name .. ".json" end
 
 function Window:_serialize()
 	local data = {}
